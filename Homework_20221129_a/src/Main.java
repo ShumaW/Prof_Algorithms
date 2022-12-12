@@ -11,7 +11,7 @@ public class Main {
 
         long time1 = System.nanoTime();
         quickSort(getArray(1_000), 0, getArray(1_000).length - 1);
-        System.out.println((System.nanoTime() - time1) + " ms.");
+        System.out.println(((System.nanoTime() - time1) / 1_000_000) + " ms.");
         System.out.println(count1);
 
         System.out.println("--------------bubbleSort arr[1_000]--------------");
@@ -21,9 +21,10 @@ public class Main {
 
         System.out.println("-------------quickSort arr[10_000]---------------");
 
+        count2 = 0;
         long time2 = System.nanoTime();
         quickSort(getArray(10_000), 0, getArray(10_000).length - 1);
-        System.out.println((System.nanoTime() - time2) + " ms.");
+        System.out.println(((System.nanoTime() - time2) / 1_000_000) + " ms.");
         System.out.println(count1);
 
         System.out.println("---------------bubbleSort arr[10_000]-------------");
@@ -32,9 +33,11 @@ public class Main {
         System.out.println(count2);
 
         System.out.println("-------------quickSort arr[1_000_000]---------------");
+
+        count2 = 0;
         long time3 = System.nanoTime();
         quickSort(getArray(1_000_000), 0, getArray(1_000_000).length - 1);
-        System.out.println((System.nanoTime() - time3) + " ms.");
+        System.out.println(((System.nanoTime() - time3) / 1_000_000) + " ms.");
         System.out.println(count1);
 
         System.out.println("---------------bubbleSort arr[100_000]-------------");  // Специально уменьшил до 100_000. Мой компьютер виснет, если 1_000_000 элементов в массиве на bubble сортировке.
@@ -69,12 +72,12 @@ public class Main {
         int pivotIndex = low - 1;
 
         for (int i = low; i < high; i++) {
+            count1++;
             if (arr[i] <= pivot) {
                 pivotIndex++;
                 int tmp = arr[pivotIndex];
                 arr[pivotIndex] = arr[i];
                 arr[i] = tmp;
-                count1++;
             }
         }
         int tmp = arr[pivotIndex + 1];
@@ -84,22 +87,23 @@ public class Main {
     }
 
     static void bubbleSort(int[] arr) {
+        count2 = 0;
         long time = System.nanoTime();
         // Написать условия циклов
         // Выполнить сравнение каждого элемента с каждым
         // Если текущий элемент больше следующего, поменять их местами
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - 1; j++) {
+                count2++;
                 if (arr[i] < arr[j]) {
                     int tmp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = tmp;
-                    count2++;
                 }
                 // swap elements if first > second
             }
         }
-        System.out.println((System.nanoTime() - time) + " ms.");
+        System.out.println(((System.nanoTime() - time) / 1_000_000) + " ms.");
     }
 }
