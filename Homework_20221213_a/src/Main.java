@@ -28,13 +28,13 @@ public class Main {
         counter = 0;
         long result1 = fibTab(n);
         long end1 = System.currentTimeMillis();
-        System.out.printf("fibTab: " + "Result = %d, count = %d, time(s) = %d.\n", result1, counter, (end1 - start1));
+        System.out.printf("fibTab: " + "Result = %d, count = %d, time(s) = %d.\n", result1, counter, ((end - start)/1000000));
 
         long start2 = System.currentTimeMillis();
         counter = 0;
         long result2 = fibTab(n);
         long end2 = System.currentTimeMillis();
-        System.out.printf("fibMemo: " + "Result = %d, count = %d, time(s) = %d.\n", result2, counter, (end2 - start2));
+        System.out.printf("fibMemo: " + "Result = %d, count = %d, time(s) = %d.\n", result2, counter, ((end - start)/1000000));
 
         /*
         ------------------------- n = 5 -------------------------
