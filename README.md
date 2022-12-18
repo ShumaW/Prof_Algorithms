@@ -14,3 +14,5 @@ Homework_06.12.2022
 
 - [Main.java](https://github.com/ShumaW/Prof_Algorithms/blob/master/Homework_20221206_a/src/Main.java)
 - [NewArray.java](https://github.com/ShumaW/Prof_Algorithms/blob/master/Homework_20221206_a/src/NewArray.java)
+
+[Homework_13.12.2022](https://github.com/ShumaW/Prof_Algorithms/blob/master/Homework_20221213_a/src/Main.java)

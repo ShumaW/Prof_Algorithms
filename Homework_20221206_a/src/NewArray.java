@@ -3,26 +3,24 @@ import java.util.Arrays;
 public class NewArray {
     private int capasity = 2;
     private Integer[] arr = new Integer[capasity];
-
     private int size = 0;
-
-
 
     public boolean add(int value) {
         if (size >= arr.length) {
             enlarge();
         }
-        arr[size] = value;
-        size++;
+        arr[size++] = value;
         return true;
     }
 
     private void enlarge() {
         arr = Arrays.copyOf(arr, arr.length * 2);
-
     }
 
     public void addAt(int index, int value){
+        if (index > size){
+            throw new ArrayIndexOutOfBoundsException();
+        }
         if (size >= arr.length) {
             enlarge();
         }
@@ -31,7 +29,6 @@ public class NewArray {
         }
         arr[index] = value;
         size++;
-
     }
 
     public void remove(){
@@ -40,6 +37,9 @@ public class NewArray {
     }
 
     public void removeAt(int index){
+        if (index > size){
+            throw new ArrayIndexOutOfBoundsException();
+        }
         for (int i = 0; i < arr.length; i++) {
             if (index == i) {
                 arr[i] = null;
@@ -62,6 +62,9 @@ public class NewArray {
     }
 
     public int get(int index){
+        if (index > size){
+            throw new ArrayIndexOutOfBoundsException();
+        }
         if (index >=0 && index<size ) {
             return arr[index];
         }
@@ -69,6 +72,9 @@ public class NewArray {
     }
 
     public void set(int index, int value) {
+        if (index > size){
+            throw new ArrayIndexOutOfBoundsException();
+        }
         for (int i = 0; i < size; i++) {
             if (index == i){
                 arr[i] = value;

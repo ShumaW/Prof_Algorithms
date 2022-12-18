@@ -64,8 +64,5 @@ public class Main {
         System.out.println("-".repeat(50));
         arr.clear();
         System.out.println(arr);
-
     }
-
-
 }
