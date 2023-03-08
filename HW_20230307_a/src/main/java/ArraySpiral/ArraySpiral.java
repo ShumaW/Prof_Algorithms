@@ -1,6 +1,6 @@
-package org.ArrayCircle;
+package ArraySpiral;
 
-public class ArrayCircle {
+public class ArraySpiral {
     public static void main(String[] args) {
 
         getSquareArray(9);
