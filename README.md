@@ -16,3 +16,10 @@ Homework_06.12.2022
 - [NewArray.java](https://github.com/ShumaW/Prof_Algorithms/blob/master/Homework_20221206_a/src/NewArray.java)
 
 [Homework_13.12.2022](https://github.com/ShumaW/Prof_Algorithms/blob/master/Homework_20221213_a/src/Main.java)
+
+[HW_03.03.2023]()
+
+HW_07.03.2023
+
+- [ArrayCircle]()
+- [PingPong]()
