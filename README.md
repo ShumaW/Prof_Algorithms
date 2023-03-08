@@ -17,9 +17,9 @@ Homework_06.12.2022
 
 [Homework_13.12.2022](https://github.com/ShumaW/Prof_Algorithms/blob/master/Homework_20221213_a/src/Main.java)
 
-[HW_03.03.2023]()
+[HW_03.03.2023](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230303_a/src/main/java/org/example/Main.java)
 
 HW_07.03.2023
 
-- [ArrayCircle]()
-- [PingPong]()
+- [ArrayCircle](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/org/ArrayCircle/ArrayCircle.java)
+- [PingPong](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/PingPong/PingPong.java)
