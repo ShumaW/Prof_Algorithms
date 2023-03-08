@@ -21,5 +21,5 @@ Homework_06.12.2022
 
 HW_07.03.2023
 
-- [ArraySpiral](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/org/ArrayCircle/ArraySpiral.java)
+- [ArraySpiral](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/ArraySpiral/ArraySpiral.java)
 - [PingPong](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/PingPong/PingPong.java)
