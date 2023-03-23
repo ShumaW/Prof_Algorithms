@@ -23,3 +23,7 @@ HW_07.03.2023
 
 - [ArraySpiral](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/ArraySpiral/ArraySpiral.java)
 - [PingPong](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230307_a/src/main/java/PingPong/PingPong.java)
+
+HW_16.03.2023
+- [Task1](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230316_a/src/main/java/taskl/MainTask1.java)
+- [Task2](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230316_a/src/main/java/task2/MainTask2.java)

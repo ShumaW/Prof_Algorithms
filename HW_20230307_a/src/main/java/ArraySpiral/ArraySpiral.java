@@ -3,7 +3,7 @@ package ArraySpiral;
 public class ArraySpiral {
     public static void main(String[] args) {
 
-        getSquareArray(9);
+        getSquareArray(15);
 
     }
 

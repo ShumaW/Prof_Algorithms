@@ -6,7 +6,7 @@ public class PingPong {
 
     public static void main(String[] args) {
 
-        pingPong(20, 13);
+        pingPong(30, 31);
 
     }
 
