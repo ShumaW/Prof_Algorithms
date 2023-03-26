@@ -27,6 +27,7 @@ public class MainTask1 {
 
         List<String> jeweleryList = Arrays.stream(jewelery.split("")).toList();
         List<String> stonesList = Arrays.stream(stones.split("")).toList();
+
         for (int i = 0; i < jeweleryList.size(); i++) {
             for (int j = 0; j < stonesList.size(); j++) {
                 if (jeweleryList.get(i).equals(stonesList.get(j))){
@@ -34,6 +35,7 @@ public class MainTask1 {
                 }
             }
         }
+
         System.out.println(map);
     }
 }
