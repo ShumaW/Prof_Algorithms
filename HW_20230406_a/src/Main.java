@@ -45,10 +45,10 @@ public class Main {
                 upDown--;
             }
             if (moves.charAt(i) == 'L') {
-                leftRight++;
+                leftRight--;
             }
             if (moves.charAt(i) == 'R') {
-                leftRight--;
+                leftRight++;
             }
         }
         int[] coordinate = {upDown, leftRight};
