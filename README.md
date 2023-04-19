@@ -1,4 +1,4 @@
-# Homeworks_Algorithms
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=FFFFFF&width=435&lines=Homeworks_Algorithms" alt="Typing SVG" /></a>
 
 HW_06.04.2023
 - [Main](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230406_a/src/Main.java)
