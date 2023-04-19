@@ -1,5 +1,9 @@
 # Homeworks_Algorithms
 
+HW_06.04.2023
+- [Main](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230406_a/src/Main.java)
+- [ListNodes](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230406_a/src/ListNodes.java)
+
 [HW_26.03.2023](https://github.com/ShumaW/Prof_Algorithms/blob/master/HW_20230323_a/src/main/java/Main.java)
 
 HW_16.03.2023
