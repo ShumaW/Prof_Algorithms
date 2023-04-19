@@ -1,9 +1,5 @@
-import com.sun.jdi.Value;
-
 import java.util.Arrays;
-import java.util.LinkedList;
 
-import static java.io.ObjectInputFilter.merge;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,10 +12,10 @@ public class Main {
         System.out.println("-".repeat(25) + " Task 2 " + "-".repeat(25));
         ListNodes l1 = new ListNodes(1);
         l1.add(2);
-        l1.add(3);
-        ListNodes l2 = new ListNodes(4);
-        l2.add(5);
-        l2.add(6);
+        l1.add(7);
+        ListNodes l2 = new ListNodes(3);
+        l2.add(3);
+        l2.add(11);
 
         ListNodes listNodes = mergeTwo(l1, l2);
 
