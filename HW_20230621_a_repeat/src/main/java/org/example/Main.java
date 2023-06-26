@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -38,12 +36,11 @@ public class Main {
             if (arr1[indArr1] > arr2[indArr2]) {
                 temp[indexTemp] = arr2[indArr2];
                 indArr2++;
-                indexTemp++;
             } else {
                 temp[indexTemp] = arr1[indArr1];
                 indArr1++;
-                indexTemp++;
             }
+            indexTemp++;
         }
         if (indArr1 == arr1.length) {
             while (indArr2 < arr2.length) {
