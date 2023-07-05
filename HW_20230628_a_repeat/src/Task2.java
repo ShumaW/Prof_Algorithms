@@ -12,7 +12,12 @@ public class Task2 {
         System.out.println(Arrays.toString(addOneToArray(digits4, digits4.length)));
         int[] digits5 = {4,5,1,9};
         System.out.println(Arrays.toString(addOneToArray(digits5, digits5.length)));
-
+        int[] digits6 = {9,9};
+        System.out.println(Arrays.toString(addOneToArray(digits6, digits6.length)));
+        int[] digits7 = {-9,-9};
+        System.out.println(Arrays.toString(addOneToArray(digits7, digits7.length)));
+        int[] digits8 = {0,0,1};
+        System.out.println(Arrays.toString(addOneToArray(digits8, digits8.length)));
     }
 
     /**
@@ -42,8 +47,9 @@ public class Task2 {
         if (!(arr[size - 1] == 9)) {
             arr[size - 1]++;
         } else {
-            if (size == 1) {
+            if (size == 1 || arr[0] == 9) {
                 arr = addNewSizeArray(arr);
+                arr[0] = 0;
             }
             arr[size - 1] = 0;
             if (!(size == 1)) {
